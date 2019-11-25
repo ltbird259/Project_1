@@ -2,8 +2,8 @@ def format(a = "-"):
     print(str(a) * 50)
 
 def autoformat(string,a="-"):
-    print(str(a)*50)
+    format(a)
     print(f'{string}')
-    print(str(a)*50)
-
-autoformat("Gotta get that boom, boom, BOOM!!")
+    format(a)
+# mana = "can't touch this"
+# autoformat("Gotta get that boom, boom, BOOM!!","$")
